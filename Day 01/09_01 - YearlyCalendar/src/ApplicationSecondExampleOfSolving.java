@@ -8,7 +8,13 @@ public class ApplicationSecondExampleOfSolving {
 
         int year = new Scanner(System.in).nextInt();
 
-        String[] calendar = new String[377 | 378];
+        String[] calendar;
+
+        if (year % 4 == 0) {
+            calendar = new String[378];
+        } else {
+            calendar = new String[377];
+        }
 
         int days = 0;
         for (int month = 1; month <= 12; month++) {
