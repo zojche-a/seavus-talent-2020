@@ -1,0 +1,3 @@
+Create an application class that for a given year entered by a user, creates an array and stores in that array every day from January 1st to December 31st represented as String in the format “YYYY-MM-DD” and then prints out the array.
+
+Consider a leap year one which when divided by four has a reminder of zero.

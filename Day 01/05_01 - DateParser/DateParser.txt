@@ -1,0 +1,7 @@
+Create an application class that reads a date in “MM/DD/YYYY” format (such as “12/04/2007”) from the console, splits it into separate strings for month, day, and year which it finally prints.
+
+Hint 1: The java.util.Scanner class offers a method for capturing a string from the console.
+
+String str = new Scanner(System.in).nextLine();
+
+Hint 2: String’s “substring” method is a convenient way for extracting a substring.

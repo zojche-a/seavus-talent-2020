@@ -1,0 +1,8 @@
+Create a class that models a box, with instance variables for height, width, and depth making each an integer. 
+Then create an application class that asks the user to enter the width, height, and depth of a box, creates an instance of the 
+first class and finally displays the volume of that box.
+
+Hint: The java.util.Scanner class offers a method for capturing a string from
+the console.
+
+String str = new Scanner(System.in).nextLine();

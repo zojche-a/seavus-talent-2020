@@ -1,0 +1,4 @@
+Create an application class that asks the user to enter a number of digits as words and then converts them into a single integer.
+
+Example:
+A user entering "one five zero“ should print out "150"
